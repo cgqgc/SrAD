@@ -23,7 +23,7 @@ from dataloaders.dataload import BraTSAD, PseADSeg
 from networks.unet import UNet
 from utils.util import AELoss, AverageMeter, compute_best_dice
 
-os.environ["WANDB_API_KEY"] = "a12352aa3e0666b79cf5061e9b17d952e799b7ac"
+#os.environ["WANDB_API_KEY"] = ""
 os.environ["WANDB_MODE"] = "offline"
 
 
